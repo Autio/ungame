@@ -19,20 +19,20 @@ public class TextManager : MonoBehaviour {
     public void LoadTextData()
     {
 
-        ListOfTextCards merda = new ListOfTextCards();
-        merda.cards = new List<TextCard>();
-        var cartamerda = new TextCard();
-        cartamerda.id = 1;
-        cartamerda.en = "fuck you unity your mumn sucks the seven dwarves cock under putin";
-        cartamerda.fi = "hardee har";
-        merda.cards.Add(cartamerda);
-        var vartamerda = new TextCard();
-        vartamerda.id = 1;
-        vartamerda.en = "fuck you unity your mumn sucks the seven dwarves cock under putin";
-        vartamerda.fi = "hardee har";
-        merda.cards.Add(vartamerda);
-        var porkoddio = JsonUtility.ToJson(merda);
-        Debug.Log(porkoddio);
+        //ListOfTextCards merda = new ListOfTextCards();
+        //merda.cards = new List<TextCard>();
+        //var cartamerda = new TextCard();
+        //cartamerda.id = 1;
+        //cartamerda.en = "fuck you unity your mumn sucks the seven dwarves cock under putin";
+        //cartamerda.fi = "hardee har";
+        //merda.cards.Add(cartamerda);
+        //var vartamerda = new TextCard();
+        //vartamerda.id = 1;
+        //vartamerda.en = "fuck you unity your mumn sucks the seven dwarves cock under putin";
+        //vartamerda.fi = "hardee har";
+        //merda.cards.Add(vartamerda);
+        //var porkoddio = JsonUtility.ToJson(merda);
+        //Debug.Log(porkoddio);
         string textFileName = "Texts.json";
         string filePath = Path.Combine(Application.streamingAssetsPath, textFileName);
 
@@ -41,7 +41,9 @@ public class TextManager : MonoBehaviour {
             string dataAsJson = File.ReadAllText(filePath);
             //ListOfTextCards cards = JsonUtility.FromJson<ListOfTextCards>("{\"result\":"+dataAsJson.ToString() + "}");
             ListOfTextCards cards = JsonUtility.FromJson<ListOfTextCards>(dataAsJson.ToString());
-            Debug.Log(cards.cards[0]);
+            Debug.Log(cards.cards[0].en);
+            Debug.Log(cards.cards[1]);
+
         }
 
     }
