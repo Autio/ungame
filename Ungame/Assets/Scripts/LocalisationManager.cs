@@ -79,7 +79,7 @@ public class LocalisationManager : MonoBehaviour {
 
         for (int i = 0; i < 50; i++)
         {
-            string cardKey = keys[Random.Range(0, keys.Count - 1)];
+            string cardKey = keys[Random.Range(0, keys.Count)];
             if (cardKey.Substring(0, 1) == type)
             {
                 if (!usedKeys.Contains(cardKey))
