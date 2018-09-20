@@ -1,1 +1,98 @@
-{"items":[{"key":"game_title","value":"Quiz Game"},{"key":"start_button","value":"Start Game"}]}
+{"items":[
+  {
+    "key": "1",
+    "value": "Dan has a bad habit of being too noisy. \n\nTell about one of your bad habits"
+  },
+  {
+    "key": "2",
+    "value": "If Nick does something wrong, he feels better if he says, \"I'm sorry\".\n\nWhat is something you are sorry for?"
+  },
+  {
+    "key": "3",
+    "value": "When all the lights went out, Simon was afraid. \n\nWhat are some things Simon could do?"
+  },
+  {
+    "key": "4",
+    "value": "Jamie likes to eat food that will help her stay healthy. \n\nTalk about your health."
+  },
+  {
+    "key": "5",
+    "value": "Jodie was tempted to cheat on a test.\n\nIf you have ever cheated, tell about it."
+  },
+  {
+    "key": "6",
+    "value": "Jan threw a tantrum when she did not get her own way. \n\nDo you ever throw tantrums? Talk about it."
+  },
+  {
+    "key": "7",
+    "value": "Alex goes to the doctor for a check-up at least once a year. \n\nTell about going to the doctor."
+  },
+  {
+    "key": "8",
+    "value": "When Katie had to give her speech, she felt nervous.\n\nWhen do you feel nervous?"
+  },
+  {
+    "key": "9",
+    "value": "Winona was so sick, she had to stay in bed for a week.\n\nTell about a time when you were sick."
+  },
+  {
+    "key": "10",
+    "value": "When Gill moved away, Ted realized how much he loved her. \n\nTell about someone you love."
+  },
+  {
+    "key": "11",
+    "value": "Once Rick pretended to be hurt so he would get attention.\n\nWhat do you do when you want attention?"
+  },
+  {
+    "key": "12",
+    "value": "Angelos says, \"It's not good to hate somebody.\"\n\nDo you agree or disagree? Why?"
+  },
+  {
+    "key": "13",
+    "value": "Jake broke his neighbour's window and blamed his friend. Now he feels guilty. \n\nTell about a time when you felt guilty."
+  },
+  {
+    "key": "14",
+    "value": "Maria needed a lot of courage to rescue the cat from the tall tree.\n\nTell about a time when you had courage."
+  },
+  {
+    "key": "15",
+    "value": "Donald things he can escape from his troubles by running away.\n\nWhat do you think about running away?"
+  },
+  {
+    "key": "16",
+    "value": "Lela likes to watch adventure shows on TV.\n\nTalk about your favourite TV show and why you like it."
+  },
+  {
+    "key": "17",
+    "value": "Persephone got mad at Chad and said, \"I'm never going to share again!\" \n\nSay something about sharing."
+  },
+  {
+    "key": "18",
+    "value": "Tristan threw mud on James's sweater. James got mad and wanted to fight.\n\nWhat do you think about fighting?"
+  },
+  {
+    "key": "19",
+    "value": "Phoebe felt embarrassed when she didn't know the answer to the question. \n\nWhen do you feel embarrassed?"
+  },
+  {
+    "key": "20",
+    "value": "Remi likes to recall memories from his past. \n\nShare 2 memories you have of your past."
+  },
+  {
+    "key": "21",
+    "value": "On rainy days Cat feels depressed.\n\nWhen do you feel depressed?"
+  },
+  {
+    "key": "22",
+    "value": "Michelle cries when she watches a sad movie on TV.\n\nWhen do you cry?"
+  },
+  {
+    "key": "23",
+    "value": "Philippa asked her mother for help then stubbornly insisted on doing things her way.\n\nTell about a time when you were stubborn."
+  },
+  {
+    "key": "24",
+    "value": "Maisie's grandmother died and she went to the funeral. \n\nTell about a death in your family."
+  }
+]}

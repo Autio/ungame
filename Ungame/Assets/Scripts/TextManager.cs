@@ -8,7 +8,7 @@ public class TextManager : MonoBehaviour {
     private List<string> shownCards;
 	// Use this for initialization
 	void Start () {
-        LoadTextData();
+        //LoadTextData();
 	}
 	
 	// Update is called once per frame
