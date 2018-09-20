@@ -1,10 +1,11 @@
-1,"Dan has a bad habit of being too noisy. 
+key,value
+n-1-1,"Dan has a bad habit of being too noisy. 
 
 Tell about one of your bad habits"
-2,"If Nick does something wrong, he feels better if he says, ""I'm sorry"".
+n-1-2,"If Nick does something wrong, he feels better if he says, ""I'm sorry"".
 
 What is something you are sorry for?"
-3,"When all the lights went out, Simon was afraid. 
+n-1-3,"When all the lights went out, Simon was afraid. 
 
 What are some things Simon could do?"
 n-1-4,"Jamie likes to eat food that will help her stay healthy. 
@@ -40,13 +41,13 @@ Tell about a time when you felt guilty."
 n-1-14,"Maria needed a lot of courage to rescue the cat from the tall tree.
 
 Tell about a time when you had courage."
-a-1-15,"Donald things he can escape from his troubles by running away.
+a-1-15,"Donald thinks he can escape from his troubles by running away.
 
 What do you think about running away?"
 w-1-16,"Lela likes to watch adventure shows on TV.
 
 Talk about your favourite TV show and why you like it."
-n-1-17,"Persephone got mad at Chad and said, ""I'm never going to share again!"" 
+n-1-17,"Penelope got mad at Chad and said, ""I'm never going to share again!"" 
 
 Say something about sharing."
 n-1-18,"Tristan threw mud on James's sweater. James got mad and wanted to fight.
@@ -70,7 +71,7 @@ Tell about a time when you were stubborn."
 a-1-24,"Maisie's grandmother died and she went to the funeral. 
 
 Tell about a death in your family."
-a-1-25,"When Daisie is sad, she wants to eat.
+a-1-25,"When Daisy is sad, she wants to eat.
 
 What do you do when you feel sad? "
 a-1-26,"When David admitted he was afraid, he learned that everybody has fears.
@@ -163,3 +164,51 @@ If you have ever been jealous, talk about it."
 n-1-55,"Mark tells Priscilla he has a ""happiness pill.""
 
 Do you think a pill can make someone happy? Talk about it."
+n-1-56,"When Peter had failing grades on his report card, he was very sad.
+
+Talk about grades and report cards."
+n-1-57,"Taylor tried to talk Dustin into doing something wrong.
+
+Do your friends ever try to talk you into doing things that are wrong? Talk about it."
+w-1-58,"Vincent has a talent for oil painting.
+
+What are some of your talents?"
+w-1-59,"Rose loves to sing her favourite song for her friends.
+
+What is your favourite song and why do you like it?"
+w-1-60,"Marty thinks an ""adventure"" is doing something new and unusual.
+
+Tell about an adventure in your life."
+n-1-61,"Jason wants to go camping so he can sleep in a tent.
+
+What do you think about camping?"
+w-1-62,"Henry doesn't know which holiday is his favourite.
+
+What is your favourite holiday? Why do you like it?"
+n-1-63,"Judith must do her chores before she can play.
+
+How do you feel about doing chores?"
+n-1-64,"Sadie wants Vera to enter a race to compete with her.
+
+Say something about competition."
+n-1-65,"When Marcel gave something away, he expected to receive something in return.
+
+When you give something away, do you expect to get something back? Why?"
+w-1-66,"Louis enjoyed doing a good deed for his neighbour.
+
+Tell about a good deed you have done."
+n-1-67,"David does not like to speak in front of his class. He says he lacks confidence.
+
+Talk about confidence."
+n-1-68,"Robin carries a rabbit's foot for good luck.
+
+Do you believe in good luck charms?"
+n-1-69,"Paul wants to be grown up but learns that adults have a lot of responsibility.
+
+What responsibilities do you think adults have?"
+w-1-70,"Trixie likes to curl up with her favourite book and read.
+
+Tell about your favourite book or story and why you like it."
+n-1-71,"Donald thinks he would be the happiest person in the world if he had a lot of money.
+
+How would you feel if you had a lot of money? What would you do with it?"

@@ -65,7 +65,7 @@ public class LocalisationManager : MonoBehaviour {
 
     }
 
-    public string NextCard()
+    public string NextCard(string type = "n")
     {
 
         string result = "Thanks for playing!";
@@ -77,14 +77,18 @@ public class LocalisationManager : MonoBehaviour {
             usedKeys.Clear();
         }
 
-        for (int i = 0; i < 25; i++)
+        for (int i = 0; i < 50; i++)
         {
-            string cardKey = keys[Random.Range(0, keys.Count)];
-            if (!usedKeys.Contains(cardKey))
+            string cardKey = keys[Random.Range(0, keys.Count - 1)];
+            if (cardKey.Substring(0, 1) == type)
             {
-                usedKeys.Add(cardKey);
-                result = localisedText[cardKey];
-                return result;            }
+                if (!usedKeys.Contains(cardKey))
+                {
+                    usedKeys.Add(cardKey);
+                    result = localisedText[cardKey];
+                    return result;
+                }
+            }
         }
 
         return result;

@@ -8,6 +8,7 @@ public class AppController : MonoBehaviour {
     // Icon made by Freepik from www.flaticon.com 
     public GameObject[] cameraPoints;
     public GameObject camera;
+    public int roundsPlayed = 0;
     // Need a data structure for this to parse and fill out texts accordingly. 
     // This needs to be thought through.
     // Main level, sublevel1, sublevel2
@@ -43,8 +44,17 @@ public class AppController : MonoBehaviour {
 
     public void DisplayNextCard()
     {
-        string cardText = LocalisationManager.instance.NextCard();
+        string cardText;
+        if (roundsPlayed < 4)
+        {
+            cardText = LocalisationManager.instance.NextCard("w");
+        } else
+        {
+            cardText = LocalisationManager.instance.NextCard();
+        }
+        roundsPlayed++;
         Debug.Log(cardText);
+
         GameObject.Find("CardText").GetComponent<Text>().text = cardText;
     }
 }
