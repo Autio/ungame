@@ -4,8 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
+//TODO
+// Optional timer
+// Backwards navigation
+// Theme selector
+// Credits? 
+// Monetization
+
 public class AppController : MonoBehaviour {
-    // Icon made by Freepik from www.flaticon.com 
+    
+
     public GameObject[] cameraPoints;
     public GameObject camera;
     public int roundsPlayed = 0;
@@ -57,4 +65,10 @@ public class AppController : MonoBehaviour {
 
         GameObject.Find("CardText").GetComponent<Text>().text = cardText;
     }
+
+    // First screen
+    // Swoop in the logo: Connection Cards
+    // Tagline: A Deeper Connection
+    
+
 }
