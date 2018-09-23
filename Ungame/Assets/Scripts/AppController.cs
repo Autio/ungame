@@ -13,7 +13,8 @@ using DG.Tweening;
 
 public class AppController : MonoBehaviour {
     
-
+    public GameObject[] introCards;
+    public GameObject mainPage;
     public GameObject[] cameraPoints;
     public GameObject camera;
     public int roundsPlayed = 0;
@@ -25,7 +26,7 @@ public class AppController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         camera = GameObject.Find("Main Camera");
-
+        BringCardsIn();
 	}
 	
 	// Update is called once per frame
@@ -69,6 +70,25 @@ public class AppController : MonoBehaviour {
     // First screen
     // Swoop in the logo: Connection Cards
     // Tagline: A Deeper Connection
+    // Just listen to how nicely it types I managed to do an extremely fast test and succeeded without a single typo 
     
+    void BringCardsIn()
+    {
+        Sequence introSequenceLeft = DOTween.Sequence();
+        Sequence introSequenceRight = DOTween.Sequence();
+
+        introSequenceLeft.Append(introCards[0].transform.DOMove(new Vector3(-1.1f,1.2f,0),2.2f));
+        introSequenceLeft.AppendInterval(1);
+        introSequenceRight.Append(introCards[1].transform.DOMove(new Vector3(1.1f,0.8f,0), 2.2f));
+        introSequenceRight.AppendInterval(1);
+        introSequenceLeft.Append(introCards[0].transform.DOMove(new Vector3(-1.1f,-8f,0),1.4f));
+        introSequenceRight.Append(introCards[1].transform.DOMove(new Vector3(1.1f,8f,0), 1.8f));
+        
+        introSequenceLeft.AppendCallback(() => {
+            Debug.Log("Intro complete");
+            mainPage.SetActive(true);
+
+        });
+    }
 
 }
